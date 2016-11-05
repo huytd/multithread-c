@@ -1,5 +1,5 @@
 all: clean
-	gcc thread.c -o thread
+	gcc thread.c -o thread -lpthread
 	gcc raw.c -o raw
 
 clean:
